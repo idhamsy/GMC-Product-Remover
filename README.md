@@ -18,7 +18,7 @@ How to delete a product or multiple product from GMC?
 
 
 Note: 
-1. This code process each 1K row from the first row for removal, if less than 1K you need to do step 6.
+1. This code process each 1K row from the first row for removal, if less than 1K you need to do step 6 above.
 2. To get list of merchant ID and product ID from multiple account you can use https://github.com/google/shopping-markup to pull data in Google Bigquery the pivot in Google Data Studio.
 
 
@@ -26,7 +26,7 @@ How it works:
 1. The script read each 1K row in sheet.
 2. Delete that 1K list using Google Content API Product custombatch(https://developers.google.com/shopping-content/reference/rest/v2.1/products/custombatch)
 3. Iterate until all row is processed.
-4. Limitation: When there is under 1K row unprocessed in the end. It will return error. You need to do step 8.
+4. Limitation: When there is under 1K row unprocessed in the end. It will return error. You need to do step 10 above.
 
 Another limitation:
 1. Google App Script can only run for 30 minutes for each run.
