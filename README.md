@@ -13,7 +13,7 @@ How to delete a product or multiple product from GMC?
 7. If number of row <1000, remove // from beginning of line 13 and change with the start and end of row (ex  for 200 row A1:B200). Click Save
 8. Click Run. (You need to authorize the script in the first run, ensure you also have enough permission to your GMC)
 9. Wait until the script finished
-10. If there is remaining row not processed from point no 3, remove the processed row, copy the unprocessed row to  2nd row, then go to Step 4 and Step 5
+10. If there is remaining row not processed from point no 3, remove the processed row, copy the unprocessed row to  2nd row, then go to Step 7 and Step 8
 
 
 
