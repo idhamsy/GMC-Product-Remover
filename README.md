@@ -8,8 +8,8 @@ How to use it?
 2. Fill Merchant ID and Product ID in Column A & B (max ~500K rows)
 3. Click Extension --> App Script
 4. Copy remover.gs to app script code.
-5. If number of row >1000 add // at the beginning of line 15. Click Save
-6. If number of row <1000, remove // from beginning of line 15 and change with the start and end of row (ex  for 200 row A1:B200). Click Save
+5. If number of row >1000 add // at the beginning of line 13. Click Save
+6. If number of row <1000, remove // from beginning of line 13 and change with the start and end of row (ex  for 200 row A1:B200). Click Save
 7. Click Run
 8. If there is remaining row not processed from point no 3, remove the processed row, copy the unprocessed row to  2nd row, then go to Step 4 and Step 5
 
