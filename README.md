@@ -2,7 +2,7 @@
 Bulk Remove product from Google Merchant Center(GMC) using Google Sheet and Google App Script. You just need to fill merchant ID and product ID in Google Sheet then run the app script function. This script will be very useful if you have a lot of subaccount and you need to remove product in multiple account at once.It should also works in single non multi client or single product GMC.
 
 
-How to use delete a product or multiple product from GMC?
+How to delete a product or multiple product from GMC?
 
 1. Create a new blank Google Sheet 
 2. Fill Merchant ID and Product ID in Column A & B (max ~500K product(rows)) --> See Note 2 below on how to get this.
