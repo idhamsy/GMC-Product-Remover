@@ -1,4 +1,4 @@
-# GMC-Product-Remover
+# GMC Product Remover
 Remove specific product from Google Merchant Center using Google Sheet and Google App Script. You just need to fill merchant ID and product ID in sheet then run the app script function. This script will be very useful if you have a lot of subaccount and you need to remove product in multiple account at once.It should also works in single non MCC account.
 
 
